@@ -1,0 +1,1 @@
+This readme is for the database exercises for mysql workbench Kalpana
