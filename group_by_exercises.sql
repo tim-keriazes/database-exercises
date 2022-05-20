@@ -6,12 +6,13 @@ select distinct(title) from titles;
 
 -- 3.
 select distinct(last_name) from employees
-where last_name like 'e%' and last_name like '%e';
+where last_name like 'e%e';
 -- list of unique last names that start and end with e
 
 -- 4.
-select distinct(last_name),first_name from employees
-where last_name like 'e%' and last_name like '%e';
+select last_name,first_name from employees
+where last_name like '%e%'
+group by first_name, last_name;
 -- unique combination of first name and last names that start and end with e 
 
 -- 5. 
