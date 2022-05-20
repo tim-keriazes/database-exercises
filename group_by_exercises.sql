@@ -49,7 +49,7 @@ select
 		
 		 
         
-        count(*) count_of_usernames
+        count(*) as count_of_usernames
                 
 from employees
 group by username
