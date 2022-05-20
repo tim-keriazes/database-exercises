@@ -36,3 +36,5 @@ select
 		last_name, 
         birth_date
 from employees;
+-- utilizing lower function to lowercase output, substrings within the concat to modify what is being concatenated
+-- returns first letter first name underscore, last name four letters, birthdate month, birthdate year 
