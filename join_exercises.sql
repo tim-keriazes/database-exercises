@@ -19,8 +19,12 @@ from users
 right join roles on users.role_id=roles.id;
 -- right joined roles to users
 
-select roles.name,
-count(users.name)
+-- select roles.name,
+-- count(users.name)
+
+
+
+
 
 from users
 
